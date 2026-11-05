@@ -1,0 +1,15 @@
+{
+  "name": "bmatch-analytics",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Per-game player analytics (Memory, Accuracy, Speed, Streaks, Consistency) and performance-based MMR for BubbleMatch",
+  "bin": {"analytics": "src/cli.js"},
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  }
+}
